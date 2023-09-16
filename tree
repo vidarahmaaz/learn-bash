@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if command -v tree
+then
+      echo "tree sudah terinstall"
+else
+                apt install tree
+fi
